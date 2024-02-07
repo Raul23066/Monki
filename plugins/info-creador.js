@@ -21,23 +21,21 @@ import fetch from 'node-fetch';
      const taguser = '@' + m.sender.split('@s.whatsapp.net')[0]; 
      const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document']; 
      const document = doc[Math.floor(Math.random() * doc.length)]; 
-     const str = `𝐂𝐑𝐄𝐀𝐃𝐎𝐑𝐄𝐒 𝐃𝐄 𝐒𝐇𝐀𝐍𝐀 𝐁𝐎𝐓 ♓
+     const str = `CREADORES  DE MONKI BOT 👽
 
-• 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 𝐨𝐟𝐜: 𝗗𝗮𝗻𝗶𝗲𝗹 🇦🇱
+     
+• 𝐂𝐫𝐞𝐚𝐝𝐨𝐫 𝐨𝐟𝐜: BU 💤
 
-𝐈𝐠: Instagram.com/Jxtxn17/
-𝐍𝐮𝐦𝐞𝐫𝐨: Wa.me/51907913096
+𝐈𝐠: Instagram.com/bu_2348/
+𝐍𝐮𝐦𝐞𝐫𝐨: Wa.me/8684277695
 
 
-• 𝐒𝐨𝐩𝐨𝐫𝐭𝐞 𝐨𝐟𝐜: 𝗦𝗼𝗽𝗶𝗶 🧸
+• 𝐒𝐨𝐩𝐨𝐫𝐭𝐞 𝐨𝐟𝐜: NAJERA 👽
 
-𝐈𝐠: Instagram.com/sophziix/
-𝐍𝐮𝐦𝐞𝐫𝐨: Wa.me/51977835959
+𝐈𝐠: Instagram.com/NAJERA_VENTAS2105/
+𝐍𝐮𝐦𝐞𝐫𝐨: Wa.me/50249497668
 
-• 𝐂𝐨𝐥𝐚𝐛𝐨𝐫𝐚𝐝𝐨𝐫 𝐨𝐟𝐜: 𝗔𝘅 ⚜
-
-𝐈𝐠: Instagram.com/Litopeax
-𝐍𝐮𝐦𝐞𝐫𝐨: Wa.me/51929972576
+ 
   `.trim(); 
      if (m.isGroup) { 
        // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true}) 
